@@ -5,12 +5,12 @@ import { Ionicons } from '@expo/vector-icons';
 import AppTextSB from '../../components/poppins/AppTextSB';
 import AppTextR from '../../components/poppins/AppTextR';
 import ShowMoreLess from '../../components/ShowMoreLess';
-import { useFetchData } from '@/hooks/useFetchData';
-import { getAllAttendances } from '@/apis/getRequests';
-import { Student } from '@/types/StudentTypes';
+import { useFetchData } from '../../hooks/useFetchData';
+import { getAllAttendances } from '../../apis/getRequests';
+import { Student } from '../../types/StudentTypes';
 import axios from 'axios';
-import { postAttendance } from '@/apis/postRequest';
-import { deleteAttendance } from '@/apis/deleteRequests';
+import { postAttendance } from '../../apis/postRequest';
+import { deleteAttendance } from '../../apis/deleteRequests';
 
 const monthNames = [
   'January', 'February', 'March', 'April', 'May', 'June',

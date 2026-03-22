@@ -21,10 +21,10 @@ import {
   StudentSortState,
 } from "../../types/StudentTypes";
 import ShowMoreLess from "../../components/ShowMoreLess";
-import { getAllStudents } from "@/apis/getRequests";
-import { useFetchData } from "@/hooks/useFetchData";
-import { usePostData } from "@/hooks/usePostData";
-import { postStudent } from "@/apis/postRequest";
+import { getAllStudents } from "../../apis/getRequests";
+import { useFetchData } from "../../hooks/useFetchData";
+import { usePostData } from "../../hooks/usePostData";
+import { postStudent } from "../../apis/postRequest";
 import axios from "axios";
 
 const columns = [

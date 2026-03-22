@@ -1,5 +1,5 @@
-import { Notice } from '@/types/NoticeTypes';
-import { Student } from '@/types/StudentTypes';
+import { Notice } from '../types/NoticeTypes';
+import { Student } from '../types/StudentTypes';
 import api from "./axiosInstance";
 
 type markAttendance = { 

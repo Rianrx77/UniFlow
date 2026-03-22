@@ -5,7 +5,7 @@ import TilePieChart from "../../components/TilePieChart";
 import TileBarChart from "../../components/TileBarChart";
 import TileDue from "../../components/TileDueFees";
 import { getFeesCollected, getFeesDue, getFeesSummary, getStats } from "../../apis/getRequests";
-import { useFetchData } from "@/hooks/useFetchData";
+import { useFetchData } from "../../hooks/useFetchData";
 
 const Dashboard = () => {
 

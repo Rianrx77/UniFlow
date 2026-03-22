@@ -11,11 +11,11 @@ import { Ionicons } from "@expo/vector-icons";
 import AppTextR from "../../components/poppins/AppTextR";
 import AppTextSB from "../../components/poppins/AppTextSB";
 import { Notice } from "../../types/NoticeTypes";
-import { usePostData } from "@/hooks/usePostData";
+import { usePostData } from "../../hooks/usePostData";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
-import { postNotices } from "@/apis/postRequest";
-import { getAllNotices } from "@/apis/getRequests";
-import { useFetchData } from "@/hooks/useFetchData";
+import { postNotices } from "../../apis/postRequest";
+import { getAllNotices } from "../../apis/getRequests";
+import { useFetchData } from "../../hooks/useFetchData";
 
 const sampleNotices: Notice[] = [
   {

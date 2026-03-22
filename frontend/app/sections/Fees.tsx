@@ -14,11 +14,11 @@ import AppTextB from "../../components/poppins/AppTextB";
 import TilePieChart from "../../components/TilePieChart";
 import { FeeData } from "../../types/FeesTypes";
 import ShowMoreLess from "../../components/ShowMoreLess";
-import { useFetchData } from "@/hooks/useFetchData";
-import { getFeesPie, getStudentFees } from "@/apis/getRequests";
-import { Student } from "@/types/StudentTypes";
+import { useFetchData } from "../../hooks/useFetchData";
+import { getFeesPie, getStudentFees } from "../../apis/getRequests";
+import { Student } from "../../types/StudentTypes";
 import axios from "axios";
-import { patchAttendanceChange } from "@/apis/patchRequests";
+import { patchAttendanceChange } from "../../apis/patchRequests";
 
 const monthNames = [
   "January",
